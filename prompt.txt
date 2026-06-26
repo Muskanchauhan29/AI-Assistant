@@ -1,0 +1,56 @@
+I am teaching Machine Learning and Artificial Intelligence. Below are 5 subtitle chunks retrieved from course videos. Each chunk includes the video title, lecture number, start/end timestamps (in seconds), the spoken text, and a similarity score showing how relevant it is to the query.
+
+RETRIEVED CHUNKS:
+[
+  {
+    "title":"Lecture10.mp3",
+    "number":"10",
+    "text":"um so here we have the two machines doing the two languages a1 and a2 um and we're going to combine them into one bigger machine M uh as shown remember what M is supposed to do is accept its input if there's some way of splitting that input such that the first half is accepted by the M1 and the second part",
+    "start":2452.24,
+    "end":2475.84,
+    "similarity_score":0.4922
+  },
+  {
+    "title":"Lecture10.mp3",
+    "number":"10",
+    "text":"place to go so that the machine is now going to go from q2 to q3 on that branch of the computation which reading on reading a B and then it has coming out of q3 there are two symbols there's an A and an empty string symbol now on an A the machine would have to read an A in order",
+    "start":724.56,
+    "end":751.44,
+    "similarity_score":0.4839
+  },
+  {
+    "title":"Lecture10.mp3",
+    "number":"10",
+    "text":"the B and from a B you take all of each of the places where the machine could be at the end of the previous symbol and you then apply reading a B the next symbol to each of those from each of those states where the machine could be in from the previous symbol so the machine could",
+    "start":676.16,
+    "end":698.08,
+    "similarity_score":0.4826
+  },
+  {
+    "title":"Lecture4.mp3",
+    "number":"04",
+    "text":"in deep learning. And I don't actually know of one that is focused in that way. I will probably write an article about it or add it to the second edition of the deep learning textbook. But I don't know a good resource to point you to yet other than this lecture. The softmax function comes up all the time in deep learning. We use it as the output of most neural nets for classification, for",
+    "start":2873.92,
+    "end":2900.8,
+    "similarity_score":0.4797
+  },
+  {
+    "title":"Lecture4.mp3",
+    "number":"04",
+    "text":"Hello everybody, thanks for watching this presentation. This presentation covers the topics for chapter 4, but with a lot of extra detail about how to write numerically precise code in the context that come up in deep learning.",
+    "start":0.0,
+    "end":24.96,
+    "similarity_score":0.4759
+  }
+]
+
+---
+STUDENT QUESTION: where is machine learning taught
+
+INSTRUCTIONS:
+1. Go through EACH of the 5 chunks above one by one.
+2. For each chunk, decide if it is relevant to the student's question. State your reasoning briefly.
+3. For relevant chunks, tell the student which lecture and timestamp to go to (convert seconds to MM:SS format).
+4. ONLY use information from the chunks above. Do NOT mention any lecture, topic, or timestamp not present in the chunks.
+5. If none of the chunks are relevant, tell the student that this topic was not found in the retrieved content and suggest rephrasing.
+6. If the student's question is completely unrelated to ML/AI course content, politely say you can only answer course-related questions.
