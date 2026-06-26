@@ -1,4 +1,4 @@
-# 🎥 Video RAG: Semantic Search over Video Transcripts
+# AI-Assistant: Semantic Search over Video Transcripts
 
 A Retrieval-Augmented Generation (RAG) project that enables semantic search over video transcripts. The project converts videos into text, generates embeddings using **BGE-M3** via **Ollama**, and retrieves the most relevant transcript chunks based on user queries using **cosine similarity**.
 
