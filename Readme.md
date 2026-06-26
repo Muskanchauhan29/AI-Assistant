@@ -80,8 +80,8 @@ Top Relevant Chunks
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/video-rag.git
-cd video-rag
+git clone https://github.com/Muskanchauhan29/AI-Assistant
+cd AI-Assistant
 ```
 
 Install dependencies:
@@ -128,16 +128,8 @@ Score: 0.88
 
 ---
 
-## 📸 Demo
-
-Add screenshots or a short demo video here to showcase the project in action.
-
----
-
 ## 🔮 Future Improvements
 
-* Integrate an LLM for answer generation
-* Store embeddings in FAISS or ChromaDB
 * Build a web interface using Streamlit or Gradio
 * Support multiple videos and document collections
 * Add metadata filtering for improved retrieval
